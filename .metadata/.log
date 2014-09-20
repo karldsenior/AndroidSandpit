@@ -413,3 +413,27 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product com.android.
 
 !ENTRY org.eclipse.ui 2 2 2014-09-20 18:24:14.731
 !MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY org.eclipse.egit.core 4 0 2014-09-20 18:28:47.037
+!MESSAGE An exception occurred during push on URI https://github.com/karldsenior/AndroidSandpit.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1159)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:185)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-09-20 18:28:47.039
+!MESSAGE Can't connect to any repository: https://github.com/karldsenior/AndroidSandpit.git (Nothing to push.)
+
+!ENTRY org.eclipse.egit.core 4 0 2014-09-20 18:30:42.297
+!MESSAGE An exception occurred during push on URI https://github.com/karldsenior/AndroidSandpit.git: Nothing to push.
+!STACK 0
+org.eclipse.jgit.errors.TransportException: Nothing to push.
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1159)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:185)
+	at org.eclipse.egit.ui.internal.push.PushWizard$PushJob.run(PushWizard.java:298)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.egit.ui 4 0 2014-09-20 18:30:42.298
+!MESSAGE Can't connect to any repository: https://github.com/karldsenior/AndroidSandpit.git (Nothing to push.)
