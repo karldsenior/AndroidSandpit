@@ -858,10 +858,22 @@ containing a value of this type.
         public static final int abc_split_action_bar_is_narrow=0x7f060002;
     }
     public static final class color {
-        public static final int abc_search_url_text_holo=0x7f070003;
+        public static final int abc_search_url_text_holo=0x7f07000f;
         public static final int abc_search_url_text_normal=0x7f070000;
         public static final int abc_search_url_text_pressed=0x7f070002;
         public static final int abc_search_url_text_selected=0x7f070001;
+        public static final int article_title=0x7f07000d;
+        public static final int articlecolor=0x7f07000c;
+        public static final int black=0x7f070007;
+        public static final int blue=0x7f070009;
+        public static final int blueback=0x7f07000b;
+        public static final int cachecolor=0x7f07000e;
+        public static final int date_color=0x7f070006;
+        public static final int gold=0x7f07000a;
+        public static final int gray=0x7f070008;
+        public static final int orange=0x7f070003;
+        public static final int transparent=0x7f070005;
+        public static final int white=0x7f070004;
     }
     public static final class dimen {
         /**  Default height of an action bar. 
@@ -1078,7 +1090,8 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_action_search=0x7f020057;
-        public static final int ic_launcher=0x7f020058;
+        public static final int ic_action_settings=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1280,6 +1293,18 @@ containing a value of this type.
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f0b008c;
+        /**  the theme applied to the application or activity 
+         */
+        public static final int CustomActionBarTheme=0x7f0b008d;
+        /**  ActionBar styles 
+         */
+        public static final int MyActionBar=0x7f0b008e;
+        /**  ActionBar tabs text styles 
+         */
+        public static final int MyActionBarTabText=0x7f0b0090;
+        /**  ActionBar title text 
+         */
+        public static final int MyActionBarTitleText=0x7f0b008f;
         /**  Mimic text appearance in select_dialog_item.xml 
          */
         public static final int TextAppearance_AppCompat_Base_CompactMenu_Dialog=0x7f0b0063;

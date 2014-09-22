@@ -2,9 +2,11 @@
 <section name="Workbench">
 	<item value="true" key="CommitDialog.showUntracked"/>
 	<list key="CommitDialog.authorValues">
+		<item value="Karlos &lt;Karlos@150613s-ipad&gt;"/>
 		<item value="Karlos &lt;karldsenior@yahoo.co.uk&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
+		<item value="Karlos &lt;Karlos@150613s-ipad&gt;"/>
 		<item value="Karlos &lt;karldsenior@yahoo.co.uk&gt;"/>
 	</list>
 	<section name="GitCommitMessageComponent">
@@ -12,8 +14,8 @@
 	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
 		<item value="650" key="DIALOG_WIDTH"/>
 		<item value="91" key="DIALOG_Y_ORIGIN"/>
-		<item value="440" key="DIALOG_HEIGHT"/>
 		<item value="456" key="DIALOG_X_ORIGIN"/>
+		<item value="440" key="DIALOG_HEIGHT"/>
 		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 </section>
