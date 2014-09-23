@@ -1,7 +1,10 @@
 package com.example.myfirstapp;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -20,6 +23,14 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        
+        //android.app.ActionBar bar = getActionBar();
+        //bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff9900")));
+        
+        //bar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.gold)));//from color.xml file
+        
+       
+     
     }
 
 

@@ -6,18 +6,32 @@
         <item name="android:actionBarStyle">@style/MyActionBar</item>
         <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
         <item name="android:actionMenuTextColor">@color/orange</item>
+        <item name="android:windowBackground">@color/blueback</item>
     </style>
 
     <!-- ActionBar styles -->
     <style name="MyActionBar"
-           parent="@android:style/Widget.Holo.ActionBar">
+           parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+        <!-- <item name="android:background">@color/blue</item>-->
+        <item name="android:background">@drawable/actionbar_background</item> 
     </style>
 
+    
+    
+    
+    
+    
+    
+    
+    
     <!-- ActionBar title text -->
     <style name="MyActionBarTitleText"
            parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
-        <item name="android:textColor">@color/gold</item>
+        <item name="android:textColor">@color/white</item>        
+        <item name="android:background">@color/transparent</item>
+        
+          
     </style>
 
     <!-- ActionBar tabs text styles -->
