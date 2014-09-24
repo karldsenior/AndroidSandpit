@@ -27,17 +27,17 @@ public class MainActivity extends ActionBarActivity {
         bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
         bar.setDisplayOptions(0, ActionBar.DISPLAY_SHOW_TITLE); 
 
-        //ActionBar.Tab tab;
+        ActionBar.Tab tab;
         
-        //tab = bar.newTab().setText("Fred"); 
-        //bar.addTab(tab);
+        tab = bar.newTab().setText("Fred"); 
+        bar.addTab(tab);
 
-        //tab = bar.newTab().setText("Barney"); 
-        //bar.addTab(tab);        
+        tab = bar.newTab().setText("Barney"); 
+        bar.addTab(tab);        
 
-        //if (savedInstanceState != null) {
-        	//bar.setSelectedNavigationItem(savedInstanceState.getInt("tab", 0));
-        //}
+        if (savedInstanceState != null) {
+        	bar.setSelectedNavigationItem(savedInstanceState.getInt("tab", 0));
+        }
         
 
         //Tab tab = bar.newTab().setText("Fred");

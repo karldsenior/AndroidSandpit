@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" >
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <!-- ICONS WON'T SHOW AS GOOGLE DECIDED THAT ICONS SHOULD NOT BE SHOWN IN ACTION MENUS -->
+    
     
     <!-- Search, should appear as action button -->
-
     <item android:id="@+id/action_search"
           android:icon="@drawable/ic_action_search"
           android:title="@string/action_search"
-          app:showAsAction="ifRoom" />
-
+          android:showAsAction="ifRoom" />
     <!-- Settings, should always be in the overflow -->
-
     <item android:id="@+id/action_settings"
           android:icon="@drawable/ic_action_settings"
           android:title="@string/action_settings"
-          app:showAsAction="ifRoom" />
-
+          android:showAsAction="ifRoom" />
 </menu>

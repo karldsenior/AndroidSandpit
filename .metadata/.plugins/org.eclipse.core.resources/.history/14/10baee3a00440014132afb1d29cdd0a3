@@ -11,42 +11,26 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.FrameLayout;
 
 
 public class MainActivity extends ActionBarActivity {
 	
 	public final static String EXTRA_MESSAGE = "com.example.myfirstapp.MESSAGE";
 
-	@Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new FrameLayout(this));  
-        ActionBar bar = getSupportActionBar();  
-        bar.setDisplayHomeAsUpEnabled(true);
-        bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        bar.setDisplayOptions(0, ActionBar.DISPLAY_SHOW_TITLE); 
-
-        //ActionBar.Tab tab;
+        setContentView(R.layout.activity_main);
         
-        //tab = bar.newTab().setText("Fred"); 
-        //bar.addTab(tab);
-
-        //tab = bar.newTab().setText("Barney"); 
-        //bar.addTab(tab);        
-
-        //if (savedInstanceState != null) {
-        	//bar.setSelectedNavigationItem(savedInstanceState.getInt("tab", 0));
-        //}
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         
-
-        //Tab tab = bar.newTab().setText("Fred");
-
-        //tab.setTabListener(new TabListener<TitleDetailsFragment>(this, "details", TitleDetailsFragment.class));
-
-        //bar.addTab(tab);        
-
-        //bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff9900"))); 
+        //android.app.ActionBar bar = getActionBar();
+        //bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ff9900")));
+        
+        //bar.setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.gold)));//from color.xml file
+        
+       
+     
     }
 
 
